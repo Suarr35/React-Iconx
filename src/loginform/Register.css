@@ -1,0 +1,66 @@
+* {
+  margin:0;
+  padding: 0;
+
+}
+
+div#bgr{
+  display:flex;
+  
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  
+}
+
+div.flex-container{
+  display: flex;
+  width: 400px;
+  margin: 100px auto 0px auto;
+  justify-content: space-around;
+  align-items: center;
+  align-content: center;
+}
+
+h1#heading{
+  text-align: center;
+  padding:20px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+  background-color: lightgoldenrodyellow;
+  color: black;
+
+} 
+
+form#regform {
+  background-color: greenyellow;
+  width: 100%;
+  font-size: 18px;
+  border-radius: 10px;
+  border:1px solid greenyellow;
+  box-shadow: 2px 2px 15px greenyellow;
+  color: black;
+  margin: 40px;
+}
+
+label{
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 18px;
+  font-style: italic;
+}
+
+input#tbox{
+  width: 300px;
+  border: 1px solid black;
+  border-radius: 3px;
+  outline: 0;
+  padding: 7px;
+  background-color: white;
+  box-shadow: inset 1px 1px 1px white;
+}
+
+input#button  {
+  margin-top: 10px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
